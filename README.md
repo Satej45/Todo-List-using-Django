@@ -1,34 +1,41 @@
-Cloning from GitHub Repository
-To get started with the Todo_List Django Web App, you can clone the repository from GitHub using the following steps:
+# Django Todo List App
 
-Clone the repository:
+A simple Todo List application built with Django.
 
-git clone [https://github.com/Satej45/Todo-List-using-Django.git]
-Navigate to the project folder:
+## Features
 
-cd Todo_List
-Create and activate a virtual environment (optional but recommended):
+- Add, edit, and delete tasks.
+- Mark tasks as completed or incomplete.
+- Organize tasks by categories.
+- User-friendly interface.
 
-py -m venv myworld
-myworld\Scripts\activate.bat
-Install project dependencies:
+## Technologies Used
 
+- [Django](https://www.djangoproject.com/) - A high-level Python web framework.
+- [SQLite](https://www.sqlite.org/) - A lightweight and embedded database.
+- [Bootstrap](https://getbootstrap.com/) - A front-end framework for styling.
+
+## Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Satej45/Todo-List-using-Django.git
+   cd django-todo-list
+
+Install dependencies:
 pip install -r requirements.txt
-Run database migrations:
 
-python manage.py makemigrations
+Apply migrations:
 python manage.py migrate
-Create a superuser account (for admin access)
 
+Create a superuser account (optional but recommended):
 python manage.py createsuperuser
-Start the development server:
 
+Run the development server:
 python manage.py runserver
-Open your web browser and go to http://localhost:8000 to access the Todo_List Django Web App.
+Open your browser and navigate to http://localhost:8000 to access the application.
 
-Installing from ZIP Archive
-Download the zip file Todo_List.zip
-Extract the ZIP archive to your desired location on your computer.
-Navigate to the project folder: --Right click on the project folder and 'Copy as path' and paste the path like below
-cd project_path
-Continue with steps 3 to 8 from the "Cloning from GitHub Repository" section to set up and run the project
+Usage
+Access the admin interface to manage tasks and categories: http://localhost:8000/admin/
+Use the task list interface to add, edit, and manage tasks: http://localhost:8000/tasks/
