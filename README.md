@@ -32,14 +32,3 @@ Extract the ZIP archive to your desired location on your computer.
 Navigate to the project folder: --Right click on the project folder and 'Copy as path' and paste the path like below
 cd project_path
 Continue with steps 3 to 8 from the "Cloning from GitHub Repository" section to set up and run the project
-Features
-The Todo_List Django Web App offers the following features:
-
-Task Management: Easily add, edit, and delete tasks.
-Task Prioritization: Assign priority levels to tasks.
-Task Categorization: Divide tasks in different categories
-User Authentication: Secure account management.
-Admin Dashboard: Access admin dashboard http://localhost:8000/admin/ to manage users and tasks.
-Profile Managemet: Change user details(photo,email,pass,name etc).
-Export Task Details: Download PDF / CSV file of you tasks.
-Dark Mode: Trigger Dark theme for awesome experience.
