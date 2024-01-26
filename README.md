@@ -3,7 +3,7 @@ To get started with the Todo_List Django Web App, you can clone the repository f
 
 Clone the repository:
 
-git clone https://github.com/NAHIAN-19/Todo-List-Django.git
+git clone [https://github.com/NAHIAN-19/Todo-List-Django.git](https://github.com/Satej45/Todo-List-using-Django.git)
 Navigate to the project folder:
 
 cd Todo_List
